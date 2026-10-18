@@ -8,27 +8,36 @@
 </head>
 <body>
 <h1>Tiny Beasts Onet 3D: Privacy Policy</h1>
-<p><em>Last updated: October 18, 2026 (the game was renamed from "Pikachu 3D"; nothing else changed)</em></p>
+<p><em>Last updated: October 18, 2026 (added an age question on the first start, anonymous analytics and crash reports through Google Firebase; Hint now needs an internet connection)</em></p>
 <p>This Privacy Policy explains how the game <b>Tiny Beasts Onet 3D</b> (package com.tamhuynh.pikachu3d, "the game") handles information. The game is made by an independent developer, Tam Huynh ("we").</p>
 
 <h2>Summary</h2>
 <ul>
 <li>The game has <b>no accounts, no sign-in, no chat and no in-app purchases</b>.</li>
-<li><b>We do not collect, store or sell any personal information.</b></li>
+<li><b>We do not collect, store or sell any personal information.</b> The game sends anonymous play statistics and crash reports (Google Firebase), which are never used for advertising.</li>
 <li>Your game progress and settings are saved <b>only on your device</b>.</li>
-<li>The game shows <b>optional rewarded video ads</b> (Google AdMob) only when the player taps Hint or Revive. All ad requests are marked as <b>directed to children</b>.</li>
+<li>The game shows <b>optional rewarded video ads</b> (Google AdMob) only when the player taps Hint or Revive. On the first start it asks the <b>year of birth</b>: players under 13 get only ads for children, players under 16 never get personalised ads.</li>
 </ul>
 
 <h2>Information saved on your device</h2>
-<p>The game saves your progress (cleared levels, stars), your settings (music, sound effects, graphics quality) and a technical log file on your device. This data never leaves your device, and we cannot see it. Uninstalling the game or clearing its data deletes it.</p>
+<p>The game saves your progress (cleared levels, stars), your settings (music, sound effects, graphics quality), your age group (child, teen or adult; the year of birth itself is not kept) and a technical log file on your device. Uninstalling the game or clearing its data deletes it. Only what the next section describes leaves your device.</p>
+
+<h2>Play statistics and crash reports (Google Firebase)</h2>
+<p>To learn which levels are too hard and to fix crashes, the game uses Google Analytics for Firebase and Firebase Crashlytics. They send:</p>
+<ul>
+<li>game events: a level started or finished, whether it was won, its stars, its speed, and when Hint or Revive was used; the furthest level reached;</li>
+<li>standard app information: app version, operating system version, language, country only (from the IP address; no city or finer location, and the IP address itself is not stored), when the game was first opened and how long it was played;</li>
+<li>crash reports: where in the game the crash happened, the device model and operating system, the level being played and the last lines of the game's technical log (game events only, nothing typed or personal);</li>
+<li>a random identifier created by Firebase for this installation of the game (a new one after reinstalling).</li>
+</ul>
+<p>For a children's audience they are set up so that the Android Advertising ID is <b>not</b> collected and every advertising use is turned off (no ad storage, no ad personalisation, no user data for ads): the statistics are used <b>only to improve the game</b>. We see them only as totals and as individual crash reports, never with a name, an email or a phone number. Analytics keeps event data for 2 months, crash reports are kept for 90 days. Google handles this data under the Firebase privacy terms: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
 
 <h2>Advertising (Google AdMob)</h2>
-<p>The game uses the Google Mobile Ads SDK (AdMob) to show rewarded video ads. An ad plays only when the player chooses one. Every ad request is tagged <b>"child-directed"</b> and <b>"under the age of consent"</b>. As a result:</p>
+<p>The game uses the Google Mobile Ads SDK (AdMob) to show rewarded video ads. An ad plays only when the player chooses one. On the first start the game asks "What year were you born?" on a neutral screen (no year is suggested) and keeps only the resulting age group on the device. The ads depend on that group:</p>
 <ul>
-<li>ads are <b>not personalised</b> and no interest-based advertising or remarketing is used;</li>
-<li>only ad sources certified for Google Play's Families policy are used;</li>
-<li>ad content is limited to the <b>G (general audiences)</b> rating;</li>
-<li>the game does <b>not</b> use the Android Advertising ID (the AD_ID permission is removed).</li>
+<li><b>Under 13:</b> every ad request is tagged <b>"child-directed"</b> and <b>"under the age of consent"</b>: ads are <b>not personalised</b>, no interest-based advertising or remarketing is used, only ad sources certified for Google Play's Families policy are used, ad content is limited to the <b>G</b> rating, and the Android Advertising ID is not used.</li>
+<li><b>13 to 15:</b> ad requests are tagged for teens and "under the age of consent": ads are <b>not personalised</b>, ad content is limited to the <b>PG</b> rating.</li>
+<li><b>16 and older:</b> ads may be personalised by Google using the Android Advertising ID. In the European Economic Area, the United Kingdom and Switzerland, Google's consent form asks first, and your choice can be changed at any time in the game under SETTINGS &gt; PRIVACY CHOICES. Ad content is limited to the <b>PG</b> rating. You can reset or delete the Advertising ID in your device's settings (Settings &gt; Privacy &gt; Ads).</li>
 </ul>
 <p>To deliver ads, measure them and prevent fraud, Google may automatically process limited technical information, such as the IP address (used for approximate location), device type, operating system version and how the ad was interacted with. Google handles this information under its own policies:</p>
 <ul>
@@ -36,16 +45,16 @@
 <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
 <li>AdMob and children: <a href="https://support.google.com/admob/answer/6223431">https://support.google.com/admob/answer/6223431</a></li>
 </ul>
-<p>The game works offline. Without an internet connection no ads are loaded, and Hint is free.</p>
+<p>The game works offline. Without an internet connection no ads are loaded, and Hint waits until an ad can be shown.</p>
 
 <h2>Children</h2>
-<p>The game is suitable for children. We do not knowingly collect personal information from anyone, including children under 13. We comply with Google Play's Families policy and, through the settings described above, with the Children's Online Privacy Protection Act (COPPA) and the GDPR rules on children's data. If you believe a child's personal information has been collected through the game, contact us and we will help to have it removed.</p>
+<p>The game is suitable for children. We do not knowingly collect personal information from anyone, including children under 13. The age question decides only which kind of ads a player gets; children get only ads for children. We comply with Google Play's Families policy and, through the settings described above, with the Children's Online Privacy Protection Act (COPPA) and the GDPR rules on children's data. If you believe a child's personal information has been collected through the game, contact us and we will help to have it removed.</p>
 
 <h2>Permissions</h2>
-<p>The game requests only network permissions (and the standard background-work permissions that Google's ad library adds), which are needed to load ads. It does not access your camera, microphone, contacts, photos, files or precise location.</p>
+<p>The game requests only network permissions (and the standard background-work permissions that Google's ad and Firebase libraries add), which are needed to load ads and send the statistics above. It does not access your camera, microphone, contacts, photos, files or precise location.</p>
 
 <h2>Your rights</h2>
-<p>Because we do not hold personal information, there is nothing for us to access, correct or delete. For data processed by Google for advertising, see the Google links above.</p>
+<p>Because we do not hold personal information, there is nothing for us to access, correct or delete. To remove the statistics of your installation, write to us from the game's store page and we will ask Google to delete them; uninstalling the game stops all sending. For data processed by Google, see the Google links above.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the new version will be posted on this page with a new "Last updated" date.</p>
